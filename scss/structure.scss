@@ -1,0 +1,48 @@
+/* 
+JESUS ANDRADE
+N315 FALL 2022
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html, body {
+    height: 100%;
+   }
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6,
+   p {
+    margin-bottom: 16px;
+   }
+   
+   h1 {
+   }
+
+   //FONTS
+
+   @font-face {
+    font-family: 'abril';
+    src: url(../assets/fonts/AbrilFatface-Regular.ttf);
+   }
+
+   @font-face {
+    font-family: 'kufi';
+    src: url(../assets/fonts/ReemKufiFun/ReemKufiFun-Regular.ttf);
+   }
+
+   @font-face {
+    font-family: 'play-italic';
+    src: url(../assets/fonts/static/PlayfairDisplay-Italic.ttf);
+   }
+
+   @font-face {
+    font-family: 'play';
+    src: url(../assets/fonts/static/PlayfairDisplay-Regular.ttf);
+   }

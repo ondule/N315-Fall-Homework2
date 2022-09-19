@@ -1,0 +1,27 @@
+//STYLING FOR FOR CARDS PAGE
+.cards {
+    min-height: 100%;
+    min-width: 100%;
+    //background-color: chartreuse;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cardHolder {
+    max-height: 350px;
+    width: 233px;
+    //background-color: aqua;
+    padding: 25px;
+    //padding-bottom: 10px;
+
+    img {
+        width: 100%;
+        
+    }
+
+}
+
+
+

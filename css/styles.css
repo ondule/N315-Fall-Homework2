@@ -1,0 +1,211 @@
+/* 
+JESUS ANDRADE
+N315 FALL 2022
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "abril";
+  src: url(../assets/fonts/AbrilFatface-Regular.ttf);
+}
+@font-face {
+  font-family: "kufi";
+  src: url(../assets/fonts/ReemKufiFun/ReemKufiFun-Regular.ttf);
+}
+@font-face {
+  font-family: "play-italic";
+  src: url(../assets/fonts/static/PlayfairDisplay-Italic.ttf);
+}
+@font-face {
+  font-family: "play";
+  src: url(../assets/fonts/static/PlayfairDisplay-Regular.ttf);
+}
+nav {
+  height: 18%;
+  background-color: rgb(250, 50, 36);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo {
+  height: 100%;
+  margin-left: 5%;
+}
+nav .logo img {
+  height: 98%;
+}
+nav .links {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-family: "kufi";
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.active {
+  font-family: FuturaHeavyOblique;
+}
+
+.navAccent {
+  min-height: 2%;
+  width: 100%;
+  background-color: yellow;
+}
+
+.homeContenido {
+  padding-top: 100px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.homeContenido h2 {
+  font-size: 50px;
+  padding-bottom: 5px;
+  font-family: "abril";
+}
+
+.homeContenido img {
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.homeDescription {
+  min-width: 50px;
+  width: 90%;
+  font-size: 16px;
+  padding-left: 11%;
+  padding-right: 11%;
+  font-family: "play";
+}
+
+.cards {
+  min-height: 100%;
+  min-width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cardHolder {
+  max-height: 350px;
+  width: 233px;
+  padding: 25px;
+}
+.cardHolder img {
+  width: 100%;
+}
+
+.history {
+  padding-top: 100px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.history h2 {
+  font-size: 50px;
+  padding-bottom: 5px;
+  font-family: "abril";
+}
+
+.history img {
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.historyDescription {
+  min-width: 50px;
+  width: 90%;
+  font-size: 16px;
+  padding-left: 11%;
+  padding-right: 11%;
+  font-family: "play";
+}
+
+.rules {
+  padding-top: 100px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.rules h2 {
+  font-size: 50px;
+  padding-bottom: 5px;
+  font-family: "abril";
+}
+
+.rules img {
+  width: 600px;
+  padding-bottom: 20px;
+}
+
+.rulesDescription {
+  min-width: 50px;
+  width: 90%;
+  font-size: 16px;
+  padding-left: 11%;
+  padding-right: 11%;
+  font-family: "play";
+}
+
+footer {
+  height: 10%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.footLinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 20%;
+  text-align: center;
+  font-size: 10px;
+}
+
+.footLinks a {
+  color: #fff;
+  font-family: "kufi";
+  padding-right: 4em;
+}
+
+/*# sourceMappingURL=styles.css.map */

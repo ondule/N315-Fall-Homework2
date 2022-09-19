@@ -1,0 +1,18 @@
+{
+  "name": "n315-fall-homework2",
+  "version": "1.0.0",
+  "description": "Assignment 2",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile-sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.9"
+  }
+}
